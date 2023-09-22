@@ -1,5 +1,3 @@
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/fdcf1dce-2291-43b8-81d4-e1c7ea639f26)# Jarkom-Modul-1-A03-2023
-
 ## No. 1
 
 ### User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya adalah mengunggah suatu file.
@@ -135,3 +133,31 @@ Yang merupakan public IP adalah 74.53.140.153, seperti yang bisa dilihat di poin
 ### Screenshot pengerjaan
 
 ![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/77843558-371f-4e4e-bf3e-2e104879e0e4)
+
+## No. 6
+
+### Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
+
+### Clue 1: Sepertinya ada yang salah dengan penulisan tersebut secara KBBI. Ada sesuatu yang Besar di depan mata.
+
+### Clue 2: Jenis cipher merupakan substitusi a1z26 Cipher
+
+### Clue 3: Rentang Huruf yang digunakan Huruf A-R, 1-18 dengan Jawaban 6 Huruf.
+
+### Clue 4: SOURCE ADDRESS ADALAH KUNCI SEMUANYA.
+
+Pertama, dicari packet no. 7812. 
+
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/3048f075-3168-45fb-b012-9175f9d4f35e)
+
+Source address dari packet no. 7812 adalah 104.18.14.101. Rentang huruf yang digunakan adalah A-R, 1-18 dengan jawaban 6 huruf. Maka, source address dipecah menjadi sebagai berikut.
+
+10 4 18 14 10 1
+
+Menggunakan a1z26 cipher dan menggunakan huruf kapital (dari clue pertama), didapatkan hasil berikut.
+
+JDRNJA
+
+### Screenshot pengerjaan
+
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/a15caae8-e6b7-4fb6-94ca-7e9bae3cb65f)
