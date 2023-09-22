@@ -40,5 +40,21 @@ Ditemukan bahwa acknowledge number (raw) adalah 258040696/
 
 ### Screenshot pengerjaan
 
---
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/5caa1298-6122-453b-90c7-a74aa53c80b9)
+
+## No. 2
+
+### Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
+
+Portal praktikum jaringan komputer adalah 10.21.78.111. Karena itu, untuk mencarinya, digunakan filter berikut.
+
+```
+ip.addr == 10.21.78.111
+```
+
+Pilih satu paket dan lakukan Follow TCP Stream. Web server yang digunakan tertera di bagian server. Web server yang digunakan pada portal praktikum Jaringan Komputer adalah Gunicorn.
+
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/5d6a6dac-6cfc-48da-ac22-d75241c31575)
+
+### Screenshot pengerjaan
 
