@@ -198,3 +198,20 @@ Berikut adalah contoh hasil pencarian jika menggunakan file .pcapng untuk no. 6-
 
 ![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/7eac21da-b42e-4bac-8136-b719dfaccc73)
 
+## No. 9
+
+### Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
+
+Agar hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34, digunakan filter berikut.
+
+```
+ip.src == 10.51.40.1 && ip.dst != 10.39.55.34
+```
+
+Berikut adalah contoh hasil pencarian jika menggunakan file .pcapng untuk no. 6-9.
+
+![Uploading image.png…]()
+
+### Screenshot pengerjaan
+
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/1a47642e-09cf-4382-9eb8-10437c1a4b7c)
