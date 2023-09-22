@@ -179,3 +179,22 @@ Didapatkan bahwa jumlah packet yang menuju IP 184.87.193.88 adalah 6.
 ### Screenshot pengerjaan
 
 ![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/557529c1-3059-48f8-933b-f7369f46f2c8)
+
+## No. 8
+
+### Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)
+
+Digunakan kueri filter berikut untuk mengambil semua protokol packet yang menuju port 80.
+
+```
+tcp.dstport == 80 || udp.dstport == 80
+```
+
+Berikut adalah contoh hasil pencarian jika menggunakan file .pcapng untuk no. 6-9.
+
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/34fcf2be-4fb1-4415-8265-8698b1e2c594)
+
+### Screenshot pengerjaan
+
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/7eac21da-b42e-4bac-8136-b719dfaccc73)
+
