@@ -161,3 +161,21 @@ JDRNJA
 ### Screenshot pengerjaan
 
 ![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/a15caae8-e6b7-4fb6-94ca-7e9bae3cb65f)
+
+## No. 7
+
+### Berapa jumlah packet yang menuju IP 184.87.193.88?
+
+Untuk mencari packet yang menuju IP 184.87.193.88, digunakan filter berikut.
+
+```
+ip.dst == 184.87.193.88
+```
+
+Didapatkan bahwa jumlah packet yang menuju IP 184.87.193.88 adalah 6.
+
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/7ef2ab21-7ce9-45ca-87bf-229567a1d8c9)
+
+### Screenshot pengerjaan
+
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/557529c1-3059-48f8-933b-f7369f46f2c8)
