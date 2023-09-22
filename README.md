@@ -1,4 +1,4 @@
-## No. 1
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/f3710274-1c25-456d-869f-be33ac841548)## No. 1
 
 ### User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya adalah mengunggah suatu file.
 
@@ -210,8 +210,30 @@ ip.src == 10.51.40.1 && ip.dst != 10.39.55.34
 
 Berikut adalah contoh hasil pencarian jika menggunakan file .pcapng untuk no. 6-9.
 
-![Uploading image.png…]()
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/2e2cfddc-224f-40d1-92b2-81f425f60b9e)
 
 ### Screenshot pengerjaan
 
 ![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/1a47642e-09cf-4382-9eb8-10437c1a4b7c)
+
+## No. 10
+
+### Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet
+
+Pertama, digunakan filter berikut untuk mencari packet-packet dengan protokol Telnet.
+
+```
+telnet
+```
+
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/0ed3df7e-6dfe-4bee-9fc5-395a5a8e6c3c)
+
+Didapatkan kredensial berikut di packet no.227.
+
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/54011365-7da0-46f6-8310-c604157e69bb)
+
+Dengan mengabaikan warna biru, didapatkan bahwa jawabannya adalah dhafin:kesayangannyak0k0.
+
+### Screenshot pengerjaan
+
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/d832d177-5d9c-4907-b48b-e81ed8c0ec69)
