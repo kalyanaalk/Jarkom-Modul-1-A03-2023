@@ -1,4 +1,4 @@
-# Jarkom-Modul-1-A03-2023
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/fdcf1dce-2291-43b8-81d4-e1c7ea639f26)# Jarkom-Modul-1-A03-2023
 
 ## No. 1
 
@@ -98,3 +98,40 @@ Nilai checksum dapat dilihat di subtree User Datagram Protocol, dan didapatkan b
 
 ![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/48dc4744-abbf-4b8c-9107-1f118ab88f6c)
 
+## No. 5
+
+### Elshe menemukan suatu file packet capture yang menarik. Bantulah elshe untuk menganalisis file packet capture tersebut.
+
+Di dalam file zip, terdapat file .txt yang membutuhkan password untuk dibuka. Karena itu, dari file .pcapng, dicari info password yang ditemukan di packet no. 14.
+
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/6bcd294e-ba1c-4640-953f-a7f44326a391)
+
+Berikut adalah isi dari follow TCP stream.
+
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/07305ed7-a591-47f9-8858-773d2fa13346)
+
+Hasil decode Base64 dari NWltcGxlUGFzNXdvcmQ= adalah 5implePas5word. Password ini digunakan untuk membuka file .txt. Isinya yaitu perintah untuk membuka pertanyaan lewat instance berikut.
+
+```
+nc 10.21.78.111 11111
+```
+
+### a. Berapa banyak packet yang berhasil di capture dari file pcap tersebut?
+
+Terdapat 60 packet yang berhasil di capture dari file pcap tersebut.
+
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/5bdcb740-ea88-445b-8da3-525dc54838ac)
+
+### b. Port berapakah pada server yang digunakan untuk service SMTP?
+
+Port yang digunakan adalah port 25.
+
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/a58dbe30-d287-45c4-85b6-79c5e9433934)
+
+### c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP?
+
+Yang merupakan public IP adalah 74.53.140.153, seperti yang bisa dilihat di poin 5b.
+
+### Screenshot pengerjaan
+
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/77843558-371f-4e4e-bf3e-2e104879e0e4)
