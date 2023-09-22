@@ -1,4 +1,8 @@
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/f3710274-1c25-456d-869f-be33ac841548)## No. 1
+Kelompok  : A03
+Nama      : Kalyana Putri Al Kanza
+NRP       : 5025211137
+
+## No. 1
 
 ### User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya adalah mengunggah suatu file.
 
@@ -237,3 +241,7 @@ Dengan mengabaikan warna biru, didapatkan bahwa jawabannya adalah dhafin:kesayan
 ### Screenshot pengerjaan
 
 ![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/d832d177-5d9c-4907-b48b-e81ed8c0ec69)
+
+## Kendala pengerjaan
+
+Karena memakai OpenVPN, jaringan internet saya menjadi buruk dan untuk men-download satu saja file .pcapng bisa mencapai 5 menit. Selain itu, terdapat asdos yang menuduh saya menyontek salah satu teman sesama admin AJK, padahal tidak!!!
