@@ -16,35 +16,34 @@ ftp
 
 Lalu mencari packet yang mengunggah suatu file. Di packet 147, ditemukan Request: STOR c75-GrabThePhisher.zip.
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/fbce19fb-f865-4da1-817f-c70ce539890c)
+![image](./Foto/1-1.jpeg)
 
 ### a. Berapakah sequence number (raw) pada packet yang menunjukkan aktivitas tersebut? 
 
 Ditemukan bahwa sequence number (raw) adalah 258040667.
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/ce7899a3-f493-439e-ac28-d58bdd590bda)
+![image](./Foto/1-2.jpeg)
 
 ### b. Berapakah acknowledge number (raw) pada packet yang menunjukkan aktivitas tersebut? 
 
 Ditemukan bahwa acknowledge number (raw) adalah 1044861039.
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/799d4956-a422-4ffd-9fe9-0c66fdcf06ab)
-
+![image](./Foto/1-3.jpeg)
 ### c. Berapakah sequence number (raw) pada packet yang menunjukkan response dari aktivitas tersebut?
 
 Response dari aktivitas berikut ditemukan di packet 149. Ditemukan bahwa sequence number (raw) adalah 1044861039.
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/d9c8f02a-95f6-44aa-b16d-dc006688318a)
+![image](./Foto/1-4.jpeg)
 
 ### d. Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari aktivitas tersebut?
 
 Ditemukan bahwa acknowledge number (raw) adalah 258040696.
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/40d2ec5e-44b9-4c6c-b05b-193c2cfbe71d)
+![image](./Foto/1-5.jpeg)
 
 ### Screenshot pengerjaan
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/5caa1298-6122-453b-90c7-a74aa53c80b9)
+![image](./Foto/1-nc.jpeg)
 
 ## No. 2
 
@@ -58,11 +57,11 @@ ip.addr == 10.21.78.111
 
 Pilih satu paket dan lakukan Follow TCP Stream. Web server yang digunakan tertera di bagian server. Web server yang digunakan pada portal praktikum Jaringan Komputer adalah Gunicorn.
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/5d6a6dac-6cfc-48da-ac22-d75241c31575)
+![image](./Foto/2-1.jpeg)
 
 ### Screenshot pengerjaan
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/4b938dcc-665f-4f0d-97f7-4a24c523a6cd)
+![image](./Foto/2-nc.jpeg)
 
 ## No. 3
 
@@ -78,17 +77,17 @@ ip.addr == 239.255.255.250 and udp.port == 3702
 
 Dengan menghitung total paket yang muncul dengan filter di atas, didapatkan bahwa  banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702 adalah 21 buah.
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/64b98f3a-3c95-40d4-abc0-bc7d266259b0)
+![image](./Foto/3-1.jpeg)
 
 ### b. Protokol layer transport apa yang digunakan?
 
 Seluruh paket dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702 memiliki protokol layer transport UDP, yang dapat dilihat pada kolom protokol.
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/b1fd30b7-01da-43e4-997b-b625fff72830)
+![image](./Foto/3-2.jpeg)
 
 ### Screenshot pengerjaan
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/aff32528-d1de-46ca-8a7a-3c17c6ab444d)
+![image](./Foto/3-nc.jpeg)
 
 ## No. 4
 
@@ -96,11 +95,11 @@ Seluruh paket dengan IP source maupun destination address adalah 239.255.255.250
 
 Nilai checksum dapat dilihat di subtree User Datagram Protocol, dan didapatkan bahwa nilai checksum dari header packet 130 adalah 0x18e5.
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/4e28a257-b05a-4799-a7d6-d2a816c8bca6)
+![image](./Foto/4-1.jpeg)
 
 ### Screenshot pengerjaan
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/48dc4744-abbf-4b8c-9107-1f118ab88f6c)
+![image](./Foto/4-nc.jpeg)
 
 ## No. 5
 
@@ -108,11 +107,11 @@ Nilai checksum dapat dilihat di subtree User Datagram Protocol, dan didapatkan b
 
 Di dalam file zip, terdapat file .txt yang membutuhkan password untuk dibuka. Karena itu, dari file .pcapng, dicari info password yang ditemukan di packet no. 14.
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/6bcd294e-ba1c-4640-953f-a7f44326a391)
+![image](./Foto/5-1.jpeg)
 
 Berikut adalah isi dari follow TCP stream.
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/07305ed7-a591-47f9-8858-773d2fa13346)
+![image](./Foto/5-2.jpeg)
 
 Hasil decode Base64 dari NWltcGxlUGFzNXdvcmQ= adalah 5implePas5word. Password ini digunakan untuk membuka file .txt. Isinya yaitu perintah untuk membuka pertanyaan lewat instance berikut.
 
@@ -124,13 +123,13 @@ nc 10.21.78.111 11111
 
 Terdapat 60 packet yang berhasil di capture dari file pcap tersebut.
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/5bdcb740-ea88-445b-8da3-525dc54838ac)
+![image](./Foto/5-3.jpeg)
 
 ### b. Port berapakah pada server yang digunakan untuk service SMTP?
 
 Port yang digunakan adalah port 25.
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/a58dbe30-d287-45c4-85b6-79c5e9433934)
+![image](./Foto/5-4.jpeg)
 
 ### c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP?
 
@@ -138,7 +137,7 @@ Yang merupakan public IP adalah 74.53.140.153, seperti yang bisa dilihat di poin
 
 ### Screenshot pengerjaan
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/77843558-371f-4e4e-bf3e-2e104879e0e4)
+![image](./Foto/5-nc.jpeg)
 
 ## No. 6
 
@@ -154,7 +153,7 @@ Yang merupakan public IP adalah 74.53.140.153, seperti yang bisa dilihat di poin
 
 Pertama, dicari packet no. 7812. 
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/3048f075-3168-45fb-b012-9175f9d4f35e)
+![image](./Foto/6-1.jpeg)
 
 Source address dari packet no. 7812 adalah 104.18.14.101. Rentang huruf yang digunakan adalah A-R, 1-18 dengan jawaban 6 huruf. Maka, source address dipecah menjadi sebagai berikut.
 
@@ -166,7 +165,7 @@ JDRNJA
 
 ### Screenshot pengerjaan
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/a15caae8-e6b7-4fb6-94ca-7e9bae3cb65f)
+![image](./Foto/6-nc.jpeg)
 
 ## No. 7
 
@@ -180,11 +179,11 @@ ip.dst == 184.87.193.88
 
 Didapatkan bahwa jumlah packet yang menuju IP 184.87.193.88 adalah 6.
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/7ef2ab21-7ce9-45ca-87bf-229567a1d8c9)
+![image](./Foto/7-1.jpeg)
 
 ### Screenshot pengerjaan
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/557529c1-3059-48f8-933b-f7369f46f2c8)
+![image](./Foto/7-nc.jpeg)
 
 ## No. 8
 
@@ -198,11 +197,11 @@ tcp.dstport == 80 || udp.dstport == 80
 
 Berikut adalah contoh hasil pencarian jika menggunakan file .pcapng untuk no. 6-9.
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/34fcf2be-4fb1-4415-8265-8698b1e2c594)
+![image](./Foto/8-1.jpeg)
 
 ### Screenshot pengerjaan
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/7eac21da-b42e-4bac-8136-b719dfaccc73)
+![image](./Foto/8-nc.jpeg)
 
 ## No. 9
 
@@ -216,11 +215,11 @@ ip.src == 10.51.40.1 && ip.dst != 10.39.55.34
 
 Berikut adalah contoh hasil pencarian jika menggunakan file .pcapng untuk no. 6-9.
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/2e2cfddc-224f-40d1-92b2-81f425f60b9e)
+![image](./Foto/9-1.jpeg)
 
 ### Screenshot pengerjaan
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/1a47642e-09cf-4382-9eb8-10437c1a4b7c)
+![image](./Foto/9-nc.jpeg)
 
 ## No. 10
 
@@ -232,17 +231,17 @@ Pertama, digunakan filter berikut untuk mencari packet-packet dengan protokol Te
 telnet
 ```
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/0ed3df7e-6dfe-4bee-9fc5-395a5a8e6c3c)
+![image](./Foto/10-1.jpeg)
 
 Didapatkan kredensial berikut di packet no.227.
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/54011365-7da0-46f6-8310-c604157e69bb)
+![image](./Foto/10-2.jpeg)
 
 Dengan mengabaikan warna biru, didapatkan bahwa jawabannya adalah dhafin:kesayangannyak0k0.
 
 ### Screenshot pengerjaan
 
-![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/d832d177-5d9c-4907-b48b-e81ed8c0ec69)
+![image](./Foto/10-nc.jpeg)
 
 ## Kendala pengerjaan
 
