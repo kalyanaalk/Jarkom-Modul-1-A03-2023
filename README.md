@@ -85,3 +85,16 @@ Seluruh paket dengan IP source maupun destination address adalah 239.255.255.250
 ### Screenshot pengerjaan
 
 ![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/aff32528-d1de-46ca-8a7a-3c17c6ab444d)
+
+## No. 4
+
+### Berapa nilai checksum yang didapat dari header pada paket nomor 130?
+
+Nilai checksum dapat dilihat di subtree User Datagram Protocol, dan didapatkan bahwa nilai checksum dari header packet 130 adalah 0x18e5.
+
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/4e28a257-b05a-4799-a7d6-d2a816c8bca6)
+
+### Screenshot pengerjaan
+
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/48dc4744-abbf-4b8c-9107-1f118ab88f6c)
+
