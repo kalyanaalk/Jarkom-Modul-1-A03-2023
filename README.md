@@ -38,7 +38,7 @@ Response dari aktivitas berikut ditemukan di packet 149. Ditemukan bahwa sequenc
 
 ### d. Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari aktivitas tersebut?
 
-Ditemukan bahwa acknowledge number (raw) adalah 258040696/
+Ditemukan bahwa acknowledge number (raw) adalah 258040696.
 
 ![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/40d2ec5e-44b9-4c6c-b05b-193c2cfbe71d)
 
@@ -246,4 +246,4 @@ Dengan mengabaikan warna biru, didapatkan bahwa jawabannya adalah dhafin:kesayan
 
 ## Kendala pengerjaan
 
-Karena memakai OpenVPN, jaringan internet saya menjadi buruk dan untuk men-download satu saja file .pcapng bisa mencapai 5 menit. Selain itu, terdapat asdos yang menuduh saya menyontek salah satu teman sesama admin AJK, padahal tidak!!!
+Karena memakai OpenVPN, jaringan internet saya menjadi buruk dan untuk men-download satu saja file .pcapng bisa mencapai 5 menit. Selain itu, terdapat asdos yang menuduh saya menyontek salah satu teman sesama admin AJK, padahal tidak.
