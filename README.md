@@ -58,3 +58,30 @@ Pilih satu paket dan lakukan Follow TCP Stream. Web server yang digunakan terter
 
 ### Screenshot pengerjaan
 
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/4b938dcc-665f-4f0d-97f7-4a24c523a6cd)
+
+## No. 3
+
+### Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:
+
+### a. Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702?
+
+Untuk mencari banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702, digunakan filter berikut.
+
+```
+ip.addr == 239.255.255.250 and udp.port == 3702
+```
+
+Dengan menghitung total paket yang muncul dengan filter di atas, didapatkan bahwa  banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702 adalah 21 buah.
+
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/64b98f3a-3c95-40d4-abc0-bc7d266259b0)
+
+### b. Protokol layer transport apa yang digunakan?
+
+Seluruh paket dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702 memiliki protokol layer transport UDP, yang dapat dilihat pada kolom protokol.
+
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/b1fd30b7-01da-43e4-997b-b625fff72830)
+
+### Screenshot pengerjaan
+
+![image](https://github.com/kalyanaalk/Jarkom-Modul-1-A03-2023/assets/107338432/aff32528-d1de-46ca-8a7a-3c17c6ab444d)
